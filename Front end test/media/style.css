@@ -1,0 +1,118 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  background-color: #8bcafa;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  margin-right: 12px;
+  border: 2px solid black;
+  font-size: 25px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  background-color: #fd79a8;
+  border: 2px solid white;
+  color: black;
+}
+
+body {
+  background-color: #2d3436;
+  font-family: helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.showcase {
+  background-color: #2d3436;
+  color: white;
+  height: 600px;
+}
+
+.showcase nav {
+  margin-top: 10px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.showcase nav ul li {
+  margin-right: 30px;
+}
+
+.showcase nav a:hover {
+  color: yellow;
+}
+
+.showcase-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.showcase-content img {
+  width: 60%;
+  border-radius: 15px;
+}
+
+.showcase-footer {
+  background-color: #ff7675;
+  text-align: center;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase-footer ul {
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+.showcase-footer ul li {
+  padding: 10px;
+  margin-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

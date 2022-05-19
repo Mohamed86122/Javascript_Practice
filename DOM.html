@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="DOM.html"><img src="images/calculator.png" alt="" style="width: 10%;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="LOGIN.html">LOGIN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT</a>
+      </li>
+      
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <br><br><br>
+    <h3  style="color: rgb(0, 106, 226); text-align: center;">WELCOME</h3>
+    <h3 id="error" style="color: rgb(0, 106, 226); text-align: center;"></h3>
+    <div class="input-group" style="padding: 15px;">
+        
+        <input type="text" id="txt1" class="form-control" placeholder="FIRST NAME">
+        <input type="text" id="txt2" class="form-control" placeholder="LAST NAME">
+       <button class="btn btn-outline-secondary" id="submit"  style="background-color: rgb(145, 105, 90); color:cornsilk; margin-right: 15px;">SUBMIT</button><br><br>
+    </div>  
+    <center>
+    <div style="display: block;" id="aff">
+    Number 1 <input type="number" id="number1">
+    Number 2 <input type="number" id="number2"><br><br>
+    <div style="margin-left: 135px;">
+    <button class="btn btn-primary" id="op1">+</button>
+    <button class="btn btn-secondary"id="op2">-</button>
+    <button class="btn btn-dark" id="op3">*</button>
+    <button class="btn btn-outline-primary" id="op4">/</button>
+    <button class="btn btn-outline-secondary" id="cl">C</button><br><br>
+
+    </div>
+    <input type="text" id="res" style="margin-left: 135px;" placeholder="Result">
+    <script type="text/javascript" src="DOM.js"></script>
+    </center>
+  </div>
+</body>
+</html>

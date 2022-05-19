@@ -1,0 +1,15 @@
+body {
+    background: rgb(70, 1, 1);
+}
+
+.clock {
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #119227;
+    font-size: 60px;
+    letter-spacing: 7px;
+}

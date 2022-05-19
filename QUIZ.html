@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="QUIZ.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+    <form action="" method="get">
+    <div style="margin-left: 28px ;">
+            <h1>Bonjour dans votre quiz de culture génerale </h1>
+            <span>1 - International : Quelle est l'équipe nationale ayant gagné le plus de Coupes du monde ?</span>
+            <div class="radio-toolbar">
+                <input type="radio" id="radioApple" name="radio1" value="apple">
+                <label for="radioApple">Allemagne</label>
+            
+                <input type="radio" id="radioBanana" name="radio1" value="banana">
+                <label for="radioBanana">Argentine</label>
+            
+                <input type="radio" id="radioOrange" name="radio1" value="orange">
+                <label for="radioOrange">Bresil</label> 
+
+                <input type="radio" id="radioitalie" name="radio1" value="orange">
+                <label for="radioitalie">Italie</label> 
+            </div><br>
+            <span>2 - LDC : En quelle année l'Olympique de Marseille a-t-il gagné la Ligue des champions ?</span>
+            <div class="radio-toolbar">
+                <input type="radio" id="radio2" name="radio2" value="19" >
+                <label for="radio2">1991</label>
+            
+                <input type="radio" id="radio3" name="radio2" value="20">
+                <label for="radio3">1992</label>
+            
+                <input type="radio" id="radio4" name="radio2" value="21">
+                <label for="radio4">1993</label> 
+
+                <input type="radio" id="radio5" name="radio2" value="22">
+                <label for="radio5">1994</label> 
+            </div><br>
+            
+            <button type="submit" id="submitt" class="btn btn-primary">Submit</button>
+            <button type="button" id="Tips" class="btn btn-success">Tips</button>
+            <button type="button" id="correction" class="btn btn-secondary">Correction</button>
+        </div>
+        
+    </form>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+            <p>
+              1- BRESIL<BR>
+              2- 1993   
+            </p>
+        </div>
+      </div>
+      <label>Your favorites countries :</label>
+      <select name="countries" id="sel">
+          
+        
+      </select>
+      <button id="btntest" >clickkkkkk</button>
+      <script src="QUIZ.js"></script>
+</body>
+</html>

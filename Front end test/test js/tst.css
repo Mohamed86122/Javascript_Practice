@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Outfit:wght@300&family=Shadows+Into+Light&family=Shippori+Antique+B1&display=swap');
+#container{
+    width: 80;
+    margin: 0 auto;
+    text-align: center;
+}
+#text {
+    font-size: 28px;
+}
+#zar{
+  display: inline-block;
+ padding: 10px 25px;
+ margin-bottom: 30px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+ border-radius: 5px;
+  box-shadow: 0 5px #999;
+  transition-duration: 0.1s;
+}
+#zar:hover{
+    background-color: red; /* Green */
+    color: white;
+}
+#zar:active
+{
+      background-color: #3e8e41;
+      box-shadow: 0 Opx #666;
+      transform: trans lateY(4px);
+        list-style-type: none;
+        padding: 15px 20px;
+        border-bottom: 1px solid #9f9f9f;
+}
+li{
+list-style-type: none;
+padding: 15px 20px;
+border-bottom: 1px solid #9f9f9f;
+margin:0 auto;
+font-family: 'Outfit', sans-serif;
+}
+
+li:hover
+{
+    cursor: pointer;
+    background-color: #793e3e6b;
+    transition-duration: 0.2s;
+}
+.selected 
+{
+        background-color: #99ffaa;
+}
